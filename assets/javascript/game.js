@@ -11,7 +11,6 @@ var isJewelChosen = false;
 var jewelsReset = false;
 
 
-// Make wins/losses appear when document loads
 
 var html =
   "<h3>" + youWin + "</h3>" + 
@@ -21,11 +20,11 @@ var html =
 $("#wins-losses").html(html);
 
   
-// Generates a random number
+
 var random = Math.floor(Math.random() * 102) + 18;
 $("#random-number").text(random);
   
-// Generates a random number for each jewel
+ad
 $("#button-1").val((Math.floor(Math.random() * 12) + 1));
 $("#button-2").val((Math.floor(Math.random() * 12) + 1));
 $("#button-3").val((Math.floor(Math.random() * 12) + 1));
@@ -40,7 +39,6 @@ $("#button-4").val((Math.floor(Math.random() * 12) + 1));
   }
 
 
-  // On each jewel click
   $(".wrap").on("click", ".jewel", function click() {
 
     $("#wins-losses").empty();
