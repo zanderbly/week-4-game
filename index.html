@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Counter</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+<body background = "./assets/images/dust.png">
+
+  <div class="jumbotron" id="jumbo">
+    <h1 class="text-center">Crystals Collector</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                <h3 class="card-header">Random Number</h3>
+                <div class="card-body">
+                  <h1 id="random-number"></h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="card">
+              <h3 class="card-header">Wins and Losses</h3>
+                <div class="card-body" id="wins-losses">
+                    <h1 class="you-win"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+  <br>
+
+  <div class="row">
+
+      
+      <div class="col-lg-12">
+        <div class="wrap">
+          
+            <button id="button-1" class="jewel" value=""><img src="./assets/images/red_jewel.png" style = "width: 100px; height: 100px"></button>
+            <button id="button-2" class="jewel" value=""><img src="./assets/images/blue_jewel.png" style = "width: 100px; height: 100px"></button>
+            <button id="button-3" class="jewel" value=""><img src="./assets/images/yellow_jewel.png"  style = "width: 100px; height: 100px"></button>
+            <button id="button-4" class="jewel" value="" ><img src="./assets/images/green_jewel.png"  style = "width: 100px; height: 100px"></button>
+          
+        </div>
+      </div>
+  </div>
+     
+<div class="row">
+      <!-- Your score -->
+      <div class="col-lg-4">
+       <br>
+        <div class="card">
+          <h3 class="card-header">Total score:</h3>
+          <div class="card-body">
+            <h1 id="total-score"></h1>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+<br>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>

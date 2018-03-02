@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+.button-1, .button-2, .button-3, .button-4 {
+    width: 100px; 
+    height: 100px;
+}
+
+.jewel {
+  margin-right: 10px;
+}
+
+.col-lg-8 {
+    margin: 0 auto;
+    float: none; 
+}
+
+#jumbo {
+    background-color: rgb(66, 140, 238);
+  }
