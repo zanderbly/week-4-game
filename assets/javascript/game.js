@@ -11,7 +11,6 @@ var isJewelChosen = false;
 var jewelsReset = false;
 
 
-
 var html =
   "<h3>" + youWin + "</h3>" + 
   "<h3>" + youLose + "</h3>" + 
@@ -20,11 +19,10 @@ var html =
 $("#wins-losses").html(html);
 
   
-
 var random = Math.floor(Math.random() * 102) + 18;
 $("#random-number").text(random);
   
-ad
+
 $("#button-1").val((Math.floor(Math.random() * 12) + 1));
 $("#button-2").val((Math.floor(Math.random() * 12) + 1));
 $("#button-3").val((Math.floor(Math.random() * 12) + 1));
